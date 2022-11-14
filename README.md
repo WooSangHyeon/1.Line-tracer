@@ -86,3 +86,8 @@ void Moter_Left_2()
  * Line Tracer 동작 화면
  
  ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/112140633/201580315-3b72cb94-cbe6-4a14-abdd-e909fd8cacfb.gif)
+ 
+ >개선 사항 및 아쉬운 점
+  * DC motor 4개를 구동하기에 9v Battery의 전류가 부족하여 원하는 동작을 수행하지 못함.
+  * 낮은 전류로 인해 방향 전환 시 매끄럽지 않다.
+  * 9v Battery 2개를 사용하여 전류를 높여 방향 전환 시 정상적인 작동을 확인하였다.
