@@ -1,1 +1,9 @@
 /Debug/
+/.cproject
+/.gitignore
+/.mxproject
+/.project
+/.settings/
+/1.line tracer.ioc
+/STM32F103RBTX_FLASH.ld
+/connected car Debug.launch
