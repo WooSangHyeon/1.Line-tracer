@@ -8,8 +8,7 @@ system 구성
 ![시스템 구성](https://user-images.githubusercontent.com/112140633/201578145-9fdcc600-9225-41f9-aef5-50f1018eb5ca.png)
 
 # 1.Line tracer
-> 적외선 센서를 사용하여 차선 이탈 방지 시스템 구현
-> STM32의 PWM을 통한 DC모터 제어 실습 
+> 적외선 센서를 사용하여 차선 이탈 방지 시스템 구현과 STM32의 PWM을 통한 DC모터 제어 실습 
  * 사용 한 센서
    * TRTC5000
    * L298N
