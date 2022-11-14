@@ -16,3 +16,4 @@ system 구성
    * STM32F103
 >Line tracer 배선도
 ![linetracer 배선도](https://user-images.githubusercontent.com/112140633/201577422-80908d26-f0df-44dd-bc38-181ea5014ec2.png)
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/112140633/201580315-3b72cb94-cbe6-4a14-abdd-e909fd8cacfb.gif)
