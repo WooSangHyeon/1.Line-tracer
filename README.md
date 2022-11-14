@@ -82,7 +82,7 @@ void Moter_Left_2()
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_SET);
 
 }
- 
+```
  * Line Tracer 동작 화면
  
  ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/112140633/201580315-3b72cb94-cbe6-4a14-abdd-e909fd8cacfb.gif)
