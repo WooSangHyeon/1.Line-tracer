@@ -23,7 +23,8 @@
    * L298N
    * DC 모터
    * STM32F103
- *Line tracer 배선도
+ >Line tracer 배선도
+ 
  ![linetracer 배선도](https://user-images.githubusercontent.com/112140633/201577422-80908d26-f0df-44dd-bc38-181ea5014ec2.png)
  ```C
  //line tracer 주요 동작 함수
