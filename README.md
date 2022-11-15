@@ -3,6 +3,17 @@
 # 1.Line tracer
 >Project 개요
 * 적외선 센서를 활용한 차선 이탈 방지 시스템 구현과 STM32의 PWM을 통한 DC모터 제어 실습 
+>PWM(Pulse Width Modulation) 이란?
+	* 펄스폭 변조로 만들어지는 신호로서 , 한 주기동안 H와 L의 비율(Duty rate)를 변화시켜 변조하는 방식이다.
+	* ![pwm](https://user-images.githubusercontent.com/112140633/201796057-af78ded9-30cd-4a9f-89f9-28633fce9719.png)
+>1KHz 주기의 PWM 생성 하기	
+* Hz - 주파수의 단위이다. 1Hz는 1초에 1번의 클럭을 뜻한다.
+* Prescaler - 흔히 분주비라 불리며 타이머의 클럭을 나눠주는 역할이다.
+* Counter Period - 타이머의 한 주기를 결정하는 값. counter가 증가하다 Period 값이 되면 0으로 초기화 후 Prescaler의 값이 1 증가한다.
+* Counter  - 1 clock에 count 1
+	![설정 1](https://user-images.githubusercontent.com/112140633/201798381-bcc011f2-2455-43d8-a45a-5e8a92a3ef06.png)
+![설정 2](https://user-images.githubusercontent.com/112140633/201798388-20c55fed-a742-4b65-b914-0830d8069cd4.png)
+
  * 사용 한 센서
    * TRTC5000
    * L298N
