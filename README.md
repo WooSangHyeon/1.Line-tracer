@@ -17,6 +17,7 @@
 ![pwm 설정](https://user-images.githubusercontent.com/112140633/201801027-8b21b6cd-7bae-4dae-8679-9cdab5949acb.png)
 * 72MHz의 APB2에 속한 timer2를 이용하여 1KHz의 계산 방법은 72000000Hz / 72(Prescaler) / 1000(counter Period) 설정을 통해 1KHz의 PWM을 생성하였다.
 
+> Line tracer 구현
  * 사용 한 센서
    * TRTC5000
    * L298N
