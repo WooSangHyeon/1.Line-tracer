@@ -11,9 +11,11 @@
 * Hz - 주파수의 단위이다. 1Hz는 1초에 1번의 클럭을 뜻한다.
 * Prescaler - 흔히 분주비라 불리며 타이머의 클럭을 나눠주는 역할이다.
 * Counter Period - 타이머의 한 주기를 결정하는 값. counter가 증가하다 Period 값이 되면 0으로 초기화 후 Prescaler의 값이 1 증가한다.
-* Counter  - 1 clock에 count 1
-	![설정 1](https://user-images.githubusercontent.com/112140633/201798381-bcc011f2-2455-43d8-a45a-5e8a92a3ef06.png)
+* Counter  - 1 clock에 count 1증가
+![설정 1](https://user-images.githubusercontent.com/112140633/201798381-bcc011f2-2455-43d8-a45a-5e8a92a3ef06.png)
 ![설정 2](https://user-images.githubusercontent.com/112140633/201798388-20c55fed-a742-4b65-b914-0830d8069cd4.png)
+![pwm 설정](https://user-images.githubusercontent.com/112140633/201801027-8b21b6cd-7bae-4dae-8679-9cdab5949acb.png)
+* 72MHz의 APB2에 속한 timer2를 이용하여 1KHz의 계산 방법은 72000000Hz / 72(Prescaler) / 1000(counter Period) 설정을 통해 1KHz의 PWM을 생성하였다.
 
  * 사용 한 센서
    * TRTC5000
